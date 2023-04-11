@@ -64,7 +64,7 @@ jobs:
           host: 34.22.70.19
           username: ham.yunsik3798
           source: "deploy.sh"
-          target: "/home/{ham.yunsik3798}"
+          target: "/home/ham.yunsik3798"
           key: ${{ secrets.PRIVATE_KEY }}
       - name: Execute script
         uses: appleboy/ssh-action@master
